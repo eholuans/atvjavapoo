@@ -215,16 +215,7 @@ public class viagens {
 		
 		//Resultado final
 		valor = (noites*valore) + (valorp*multvalorp); 
-		System.out.println("Este é o valor total da sua viagem: R$"+valor+"\nVocê está de acordo?\n(1) Sim!\n(2) Não!");
-		acordo = sc.nextInt();
-		if (acordo == 1) {
-			System.out.println("Show!\nFaça o pix para 123viagens@gmail.com");
-		}
-		else if (acordo == 2) {
-			System.out.println("Problema seu, seu liso!\nFaça o pix para 123viagens@gmail.com");
-		}
-		else {
-			System.out.println("Opção Invalida!");
+		System.out.println("Este é o valor total da sua viagem: R$"+valor);
 		}
 		
 	}
