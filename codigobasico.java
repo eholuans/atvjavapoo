@@ -1,7 +1,7 @@
 package pooed;
 import java.util.Scanner;
 
-public class askjdhasj {
+public class viagens {
 
 	public static void main(String[] args) {
 		//Variaveis 
@@ -95,7 +95,7 @@ public class askjdhasj {
 			}
 		}
 		else if (op1 == 3) {
-			System.out.println("Seu destino é Londres!\nEscolha a companhia aerea que você deseja voar:\n(1) Latam\n(2) Britsh Airways\n(3) KLM");
+			System.out.println("Seu destino é Londres!\nEscolha a companhia aerea que você deseja voar:\n(1) Latam\n(2) British Airways\n(3) KLM");
 			compA = sc.nextInt();
 			if (compA == 1){
 				System.out.println("Você escolheu a companhia Latam!\n Você deseja voar em qual classe?\n(1)Economica : R$"+latamlond+"\n(2)Executiva : R$"+(latamlond*1.25)+"\n(3)Primeira Classe : R$"+(latamlond*1.5));
@@ -106,7 +106,7 @@ public class askjdhasj {
 				else {System.out.println("Classe invalida!");}
 			}
 			else if (compA == 2){
-				System.out.println("Você escolheu a companhia Britsh Airways!\n Você deseja voar em qual classe?\n(1) Economica : R$"+latamlond+"\n(2) Executiva : R$"+(latamlond*1.25)+"\n(3) Primeira Classe : R$"+(latamlond*1.5));
+				System.out.println("Você escolheu a companhia British Airways!\n Você deseja voar em qual classe?\n(1) Economica : R$"+latamlond+"\n(2) Executiva : R$"+(latamlond*1.25)+"\n(3) Primeira Classe : R$"+(latamlond*1.5));
 				classe = sc.nextInt();
 				if (classe == 1) {valorp += latamlond;}
 				else if (classe == 2) {valorp += (latamlond*1.25);}
@@ -188,7 +188,7 @@ public class askjdhasj {
 				}
 		}
 		else if (op1 == 3) {
-			System.out.println("Escolha seu hotel em Londres:\n(1) The Lanesborough - Menor preço: R$ "+tln+"\n(2) The Milestone Hotel - Menor preço: R$ "+tmh+"\n(3) The Ritz-Carlton Londo - Menor preço: R$ "+trl);
+			System.out.println("Escolha seu hotel em Londres:\n(1) The Lanesborough - Menor preço: R$ "+tln+"\n(2) The Milestone Hotel - Menor preço: R$ "+tmh+"\n(3) The Ritz-Carlton London - Menor preço: R$ "+trl);
 			op2 = sc.nextInt();
 			if (op2 == 1) {
 				System.out.println("Você escolheu o hotel The Lanesborough! Estas são nossas opções de quartos:\n(1) Quarto basico: R$ "+tln+"\n(2) Suite Deluxe: R$ "+(tln*1.5)+"\n(3) Cobertura: R$ "+(tln*3));
@@ -224,9 +224,14 @@ public class askjdhasj {
 		System.out.println("Este é o valor total da sua viagem: R$"+valor+"\nVocê está de acordo?\n(1) Sim!\n(2) Não!");
 		acordo = sc.nextInt();
 		if (acordo == 1) {
-			System.out.println("Show!\nFaça o pix para luancmagalhaes0202@gmail.com");
+			System.out.println("Show!\nFaça o pix para 123viagens@gmail.com");
 		}
-		
+		else if (acordo == 2) {
+			System.out.println("Problema seu!\nFaça o pix para 123viagens@gmail.com");
+		}
+		else {
+			System.out.println("Opção Invalida!");
+		}
 		
 	}
 
